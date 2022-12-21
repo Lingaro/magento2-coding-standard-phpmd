@@ -1,7 +1,7 @@
 {
     "name": "orba/magento2-coding-standard-phpmd",
     "description": "ORBA Magento2 Coding Standard for PHPMD",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "keywords": [
         "orba",
         "coding standards",

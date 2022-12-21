@@ -15,11 +15,23 @@
     <rule ref="rulesets/codesize.xml"/>
     <rule ref="rulesets/design.xml"/>
     <rule ref="rulesets/naming.xml">
+        <exclude name="LongClassName"/>
         <exclude name="LongVariable"/>
+        <exclude name="ShortVariable"/>
+    </rule>
+    <rule ref="rulesets/naming.xml/LongClassName">
+        <properties>
+            <property name="maximum" value="50"/>
+        </properties>
     </rule>
     <rule ref="rulesets/naming.xml/LongVariable">
         <properties>
-            <property name="maximum" value="33"/>
+            <property name="maximum" value="35"/>
+        </properties>
+    </rule>
+    <rule ref="rulesets/naming.xml/ShortVariable">
+        <properties>
+            <property name="exceptions" value="id"/>
         </properties>
     </rule>
     <rule ref="rulesets/unusedcode.xml"/>
