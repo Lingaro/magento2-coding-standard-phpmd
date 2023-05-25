@@ -1,9 +1,9 @@
 {
-    "name": "orba/magento2-coding-standard-phpmd",
-    "description": "ORBA Magento2 Coding Standard for PHPMD",
-    "version": "1.1.0",
+    "name": "lingaro/magento2-coding-standard-phpmd",
+    "description": "Lingaro Magento2 Coding Standard for PHPMD",
+    "version": "1.2.0",
     "keywords": [
-        "orba",
+        "lingaro",
         "coding standards",
         "magento2",
         "phpmd",
@@ -12,8 +12,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "ORBA",
-            "email": "info@orba.co"
+            "name": "Lingaro sp. z o.o.",
+            "homepage": "https://lingarogroup.com/"
         }
     ],
     "require": {
